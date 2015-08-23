@@ -26,5 +26,21 @@ namespace IOTLightsUniversal
         {
             this.InitializeComponent();
         }
+
+        private void HamburgerButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainSplitView.IsPaneOpen = !MainSplitView.IsPaneOpen;
+        }
+
+        private void Item1Click(object sender, RoutedEventArgs e)
+        {
+            //MainSplitView.Content = The new item page;
+        }
+
+        private void Item2Click(object sender, RoutedEventArgs e)
+        {
+            //MainSplitView.Content = The new item page;
+            MainSplitView.IsPaneOpen = !MainSplitView.IsPaneOpen;
+        }
     }
 }
