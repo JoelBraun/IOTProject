@@ -12,7 +12,7 @@
     Publisher="CN=Joel"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="0ea8ab14-5337-4d9e-aea8-790b402c59bb" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="06384304-9ac0-48b8-b973-8886ad9096a7" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>IOTLights</DisplayName>

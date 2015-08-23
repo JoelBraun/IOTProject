@@ -1,0 +1,1 @@
+c:\users\joel\documents\visual studio 2015\Projects\IOTLights\IOTLights\IOTLights.csproj;x86

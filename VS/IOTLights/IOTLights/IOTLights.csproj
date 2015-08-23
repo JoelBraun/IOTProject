@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{0a648593-5013-4d46-823c-be744278dcf0}</ProjectGuid>
+    <ProjectGuid>{6663eb55-15cb-4874-96c5-3a4d4e6c71dc}</ProjectGuid>
     <OutputType>winmdobj</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IOTLights</RootNamespace>
