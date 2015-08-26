@@ -22,9 +22,11 @@ namespace IOTLightsUniversal
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        public MainPage()
+        public MainPage(Frame frame)
         {
             this.InitializeComponent();
+            MainSplitView.Content = frame;
+            (MainSplitView.Content as Frame).Navigate(typeof(HomePage));
         }
 
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
@@ -34,14 +36,14 @@ namespace IOTLightsUniversal
 
         private void Item1Click(object sender, RoutedEventArgs e)
         {
-            //MainSplitView.Content = The new item page;
-            MainSplitView.IsPaneOpen = !MainSplitView.IsPaneOpen;
+            (MainSplitView.Content as Frame).Navigate(typeof(HomePage));
             HamburgerList.SelectedItem = Home;
+            MainSplitView.IsPaneOpen = !MainSplitView.IsPaneOpen;
         }
 
         private void Item2Click(object sender, RoutedEventArgs e)
         {
-            //MainSplitView.Content = The new item page;
+            (MainSplitView.Content as Frame).Navigate(typeof(MicPage));
             MainSplitView.IsPaneOpen = !MainSplitView.IsPaneOpen;
             HamburgerList.SelectedItem = Microphone;
         }

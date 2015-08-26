@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-26T00:38:28.379</Modified>
+      <Modified>2015-08-26T23:35:57.120</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -64,15 +64,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\entrypoint\IOTLightsUniversal.exe">
       <PackagePath>entrypoint\IOTLightsUniversal.exe</PackagePath>
-      <Modified>2015-08-26T00:38:25.937</Modified>
+      <Modified>2015-08-26T23:35:55.447</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\IOTLightsUniversal.exe">
       <PackagePath>IOTLightsUniversal.exe</PackagePath>
-      <Modified>2015-08-26T00:38:28.373</Modified>
+      <Modified>2015-08-26T23:35:57.114</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\IOTLightsUniversal.xr.xml">
       <PackagePath>IOTLightsUniversal.xr.xml</PackagePath>
-      <Modified>2015-08-26T00:37:00.105</Modified>
+      <Modified>2015-08-26T23:33:46.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -104,7 +104,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-08-26T00:38:27.315</Modified>
+      <Modified>2015-08-26T23:33:48.692</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>

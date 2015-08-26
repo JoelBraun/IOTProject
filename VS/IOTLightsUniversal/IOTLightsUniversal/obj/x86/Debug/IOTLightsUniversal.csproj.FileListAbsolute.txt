@@ -434,3 +434,13 @@ C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUnivers
 C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\Core\IOTLightsUniversal.xr.xml
 C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\Core\WinMetadata\Windows.winmd
 C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\Core\resources.pri
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\HomePage.xbf
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\HomePage.g.i.cs
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\HomePage.g.cs
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\HomePage.xaml
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\HomePage.xbf
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\MicPage.xbf
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\MicPage.g.i.cs
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\MicPage.g.cs
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\MicPage.xaml
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\MicPage.xbf
