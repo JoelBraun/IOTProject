@@ -35,12 +35,16 @@ namespace IOTLightsUniversal
         private void Item1Click(object sender, RoutedEventArgs e)
         {
             //MainSplitView.Content = The new item page;
+            MainSplitView.IsPaneOpen = !MainSplitView.IsPaneOpen;
+            HamburgerList.SelectedItem = Home;
         }
 
         private void Item2Click(object sender, RoutedEventArgs e)
         {
             //MainSplitView.Content = The new item page;
             MainSplitView.IsPaneOpen = !MainSplitView.IsPaneOpen;
+            HamburgerList.SelectedItem = Microphone;
+            
         }
     }
 }

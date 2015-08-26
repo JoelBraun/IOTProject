@@ -35,15 +35,13 @@
       <RootProperty Name="Items" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
-      <RootProperty Name="Content" />
       <RootProperty Name="Padding" />
-      <RootEvent Name="Tapped" />
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="FontFamily" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="HorizontalAlignment" />
     </RootType>

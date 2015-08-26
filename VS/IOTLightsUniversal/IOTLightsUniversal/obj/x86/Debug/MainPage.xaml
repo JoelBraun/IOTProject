@@ -11,23 +11,23 @@
         <MenuFlyout x:Key="FlyoutBase1"/>
     </Page.Resources>
 
-    <SplitView x:Name="MainSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="150">
+    <SplitView x:ConnectionId='1' x:Name="MainSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="150">
         <SplitView.Pane>
             <StackPanel Background="Gray">
-                <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
-                     Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
-                <ListView x:Name="HamburgerList">
-                    <ListViewItem Padding="0" x:Name="Home">
+                <Button x:ConnectionId='2' x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                     Width="50" Height="50" Background="Transparent"                              />
+                <ListView x:ConnectionId='3' x:Name="HamburgerList">
+                    <ListViewItem x:ConnectionId='4' Padding="0" x:Name="Home">
                         <StackPanel Orientation="Horizontal">
-                            <Button x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE10F;"
-                        Width="50" Height="50" Background="Transparent" Click="Item1Click"/>
+                            <Button x:ConnectionId='7' x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE10F;"
+                        Width="50" Height="50" Background="Transparent"                   />
                             <TextBlock Text="Button 2" FontSize="18" VerticalAlignment="Center" />
                         </StackPanel>
                     </ListViewItem>
-                    <ListViewItem Padding="0" x:Name="Microphone">
+                    <ListViewItem x:ConnectionId='5' Padding="0" x:Name="Microphone">
                         <StackPanel Orientation="Horizontal">
-                            <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
-                        Width="50" Height="50" Background="Transparent" Click="Item2Click"/>
+                            <Button x:ConnectionId='6' x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
+                        Width="50" Height="50" Background="Transparent"                   />
                             <TextBlock Text="Button 3" FontSize="18" VerticalAlignment="Center" />
                         </StackPanel>
                     </ListViewItem>
@@ -49,3 +49,4 @@
         </SplitView.Content>
     </SplitView>
 </Page>
+
