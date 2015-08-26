@@ -14,18 +14,29 @@
     <SplitView x:Name="MainSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="150">
         <SplitView.Pane>
             <StackPanel Background="Gray">
-               <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
                      Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE10F;"
-                        Width="50" Height="50" Background="Transparent" Click="Item1Click"/>
-                    <TextBlock Text="Button 2" FontSize="18" VerticalAlignment="Center" />
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
+                <ListView>
+                    <ListViewItem Tapped="Item2Click">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="&#xE10F;" FontFamily="Segoe MDL2 Assets"/>
+                            <TextBlock Text="Button 2" FontSize="18" VerticalAlignment="Center" />
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Padding="-0,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
                         Width="50" Height="50" Background="Transparent" Click="Item2Click"/>
-                    <TextBlock Text="Button 3" FontSize="18" VerticalAlignment="Center" />
-                </StackPanel>
+                            <TextBlock Text="Button 3" FontSize="18" VerticalAlignment="Center" />
+                        </StackPanel>
+                    </ListViewItem>
+                </ListView>
+
+
+
+
+
+
 
             </StackPanel>
         </SplitView.Pane>
