@@ -44,7 +44,6 @@ namespace IOTLightsUniversal
             //MainSplitView.Content = The new item page;
             MainSplitView.IsPaneOpen = !MainSplitView.IsPaneOpen;
             HamburgerList.SelectedItem = Microphone;
-            
         }
     }
 }

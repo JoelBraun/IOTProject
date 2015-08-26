@@ -42,9 +42,15 @@
             </StackPanel>
         </SplitView.Pane>
         <SplitView.Content>
+            
             <Grid>
-                <TextBlock Text="SplitView Basic" FontSize="54" Foreground="White"
+                <CommandBar>
+                    <TextBlock Text="&#xE895;" FontFamily="Segoe MDL2 Assets" Foreground="Black" FontSize="54"/>
+                </CommandBar>
+                
+                <TextBlock Text="SplitView Basic" FontSize="54" Foreground="Black"
                            HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Text="&#xE895;" FontFamily="Segoe MDL2 Assets" Foreground="Black" FontSize="54"/>
             </Grid>
         </SplitView.Content>
     </SplitView>
