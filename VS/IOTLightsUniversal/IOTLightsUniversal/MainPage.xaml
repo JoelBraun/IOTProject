@@ -17,13 +17,13 @@
             <StackPanel Background="Gray">
                 <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
                      Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
-                <ListView Padding="-12,0,0,0"  x:Name="HamburgerList" Foreground="White" DataContext="{Binding Groups[0]}" ItemsSource="{Binding Items}">
+                <ListView Padding="-12,0,0,0"  x:Name="HamburgerList" Foreground="White" DataContext="{Binding}" ItemsSource="{Binding Items}">
                     <ListView.ItemTemplate>
                         <DataTemplate x:Name="HamburgerItemTemplate">
                             <StackPanel Orientation="Horizontal" Padding="0">
                                 <Button Margin="-0,0,0,0" x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
                         Width="50" Height="50" Background="Transparent"  />
-                                <TextBlock Text="{Binding Title}" FontSize="18" Foreground="Black" VerticalAlignment="Center" />
+                                <TextBlock Text="{Binding DeviceName}" FontSize="18" Foreground="Black" VerticalAlignment="Center" />
                             </StackPanel>
                         </DataTemplate>
                     </ListView.ItemTemplate>

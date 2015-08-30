@@ -2,9 +2,8 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="DefaultViewModel" />
-    <RootPropertyPathName Name="Groups" />
     <RootPropertyPathName Name="Items" />
-    <RootPropertyPathName Name="Title" />
+    <RootPropertyPathName Name="DeviceName" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">

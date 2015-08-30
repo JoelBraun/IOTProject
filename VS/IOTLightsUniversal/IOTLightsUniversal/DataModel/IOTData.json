@@ -1,0 +1,36 @@
+﻿{
+  "Items": [
+    {
+      "UniqueID": "Device-1",
+      "DeviceName": "Desk Lamp",
+      "Location": "West Veranda, Floor 2",
+      "IOState": true,
+      "Uptime": 1000,
+      "Cost": 1000
+    },
+    {
+      "UniqueID": "Device-2",
+      "DeviceName": "IBM RS/6000",
+      "Location": "East Veranda, Floor 2",
+      "IOState": false,
+      "Uptime": 1000,
+      "Cost": 1000
+    },
+    {
+      "UniqueID": "Device-3",
+      "DeviceName": "Cray XC-30",
+      "Location": "West Veranda, Floor 1",
+      "IOState": true,
+      "Uptime": 1000,
+      "Cost": 1000
+    },
+    {
+      "UniqueID": "Device-4",
+      "DeviceName": "Toaster",
+      "Location": "East Veranda, Floor 1",
+      "IOState": false,
+      "Uptime": 1000,
+      "Cost": 1000
+    }
+  ]
+}

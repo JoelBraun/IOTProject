@@ -14,6 +14,8 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using IOTLightsUniversal.Common;
 using IOTLightsUniversal.Data;
+using Windows.Devices.Gpio;
+using IOTLightsUniversal.DataModel;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -46,8 +48,8 @@ namespace IOTLightsUniversal
 
         private async void getData()
         {
-            var sampleDataGroups = await SampleDataSource.GetGroupsAsync();
-            this.DefaultViewModel["Groups"] = sampleDataGroups;
+            var AzureDataItems = await AzureDataSource.GetDataItemsAsync();
+            this.DefaultViewModel["Items"] = AzureDataItems;
         }
 
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
