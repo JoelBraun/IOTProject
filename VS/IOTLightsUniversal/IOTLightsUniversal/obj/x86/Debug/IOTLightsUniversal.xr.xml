@@ -46,13 +46,13 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Command" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="CommandParameter" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="Padding" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="ItemTemplate" />
-      <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />

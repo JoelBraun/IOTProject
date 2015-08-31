@@ -1,4 +1,4 @@
-﻿<Page
+﻿<Page x:ConnectionId='1'
     x:Class="IOTLightsUniversal.MainPage"
     DataContext="{Binding RelativeSource={RelativeSource Self}}"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -13,12 +13,12 @@
         <MenuFlyout x:Key="FlyoutBase1"/>
     </Page.Resources>
 
-    <SplitView x:Name="MainSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="225">
+    <SplitView x:ConnectionId='2' x:Name="MainSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="225">
         <SplitView.Pane>
-            <StackPanel Background="Gray" Name="Root">
-                <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
-                     Width="50" Height="50" Background="Transparent" Command="{Binding HamburgerListItemCommand}" Click="HamburgerButton_Click"/>
-                <ListView  Padding="-12,0,0,0"  x:Name="HamburgerList" Foreground="White">
+            <StackPanel x:ConnectionId='3' Background="Gray" Name="Root">
+                <Button x:ConnectionId='4' x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                     Width="50" Height="50" Background="Transparent" Command="{Binding HamburgerListItemCommand}"                              />
+                <ListView x:ConnectionId='5'  Padding="-12,0,0,0"  x:Name="HamburgerList" Foreground="White">
                     <ListView.ItemTemplate>
                         <DataTemplate x:Name="HamburgerItemTemplate">
                             <StackPanel Orientation="Horizontal" Padding="0">
@@ -39,3 +39,4 @@
         </SplitView.Content>
     </SplitView>
 </Page>
+

@@ -34,7 +34,7 @@ namespace IOTLightsUniversal
         public MainPage()
         {
             this.InitializeComponent();
-            HamburgerListItemCommand = new RelayCommand(this.HamburgerListButtonClick);
+            HamburgerListItemCommand = new Command<object>(HamburgerListButtonClick); //new RelayCommand(this.HamburgerListButtonClick);
         }
 
 
@@ -44,7 +44,7 @@ namespace IOTLightsUniversal
             MainSplitView.Content = frame;
             (MainSplitView.Content as Frame).Navigate(typeof(MicPage));
             getData();
-            HamburgerListItemCommand = new RelayCommand(this.HamburgerListButtonClick);
+            HamburgerListItemCommand = new Command<object>(HamburgerListButtonClick);
             HamburgerList.ItemsSource = DefaultViewModel;
             
         }
@@ -64,19 +64,11 @@ namespace IOTLightsUniversal
             
         }
 
-        private void HamburgerListButtonClick()
+        private void HamburgerListButtonClick(object parameter)
         {
-            var item = (HamburgerButton as FrameworkElement).
-            var item2 = (item as FrameworkElement).Parent;
-            var item3 = (item as FrameworkElement).;
-            int index = HamburgerList.Items.IndexOf(item);
+            AzureDataItem item = parameter as AzureDataItem;
+            int index = DefaultViewModel.IndexOf(item);
             HamburgerList.SelectedIndex = index;
-        }
-
-        private void HamburgerList_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            var index = HamburgerList.SelectedIndex;
-            
         }
 
         public ICommand HamburgerListItemCommand
