@@ -6,12 +6,15 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Windows.ApplicationModel.Background;
 
+
 // The Background Application template is documented at http://go.microsoft.com/fwlink/?LinkID=533884&clcid=0x409
 
 namespace IOTLights
 {
     public sealed class StartupTask : IBackgroundTask
     {
+
+        private List<AzureDataItem> DataList = new List<AzureDataItem>();
         public void Run(IBackgroundTaskInstance taskInstance)
         {
             // Generate a SAS key with the Signature Generator.: https://github.com/sandrinodimattia/RedDog/releases
@@ -33,6 +36,7 @@ namespace IOTLights
             // Keep sending.
             while (true)
             {
+                getData();
                 var eventData = new
                 {
                     Temperature = new Random().Next(20, 50)
@@ -47,6 +51,15 @@ namespace IOTLights
                 Task.Delay(new Random().Next(1000, 5000));
 
 
+            }
+        }
+
+        private async void getData()
+        {
+            var AzureDataItems = await AzureDataSource.GetDataItemsAsync();
+            foreach (AzureDataItem adi in AzureDataItems)
+            {
+                DataList.Add(adi);
             }
         }
     }

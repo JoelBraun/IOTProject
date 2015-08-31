@@ -46,6 +46,7 @@ namespace IOTLightsUniversal.Common
             _canExecute = canExecute;
         }
 
+
         /// <summary>
         /// Determines whether this <see cref="RelayCommand"/> can execute in its current state.
         /// </summary>

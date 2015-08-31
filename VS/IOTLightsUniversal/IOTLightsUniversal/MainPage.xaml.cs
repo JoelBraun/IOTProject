@@ -16,6 +16,8 @@ using IOTLightsUniversal.Common;
 using IOTLightsUniversal.Data;
 using Windows.Devices.Gpio;
 using IOTLightsUniversal.DataModel;
+using System.Windows.Input;
+using System.Collections.ObjectModel;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -27,35 +29,62 @@ namespace IOTLightsUniversal
     public sealed partial class MainPage : Page
     {
         private NavigationHelper navigationHelper;
-        private ObservableDictionary defaultViewModel = new ObservableDictionary();
-        public NavigationHelper NavigationHelper
+        public ObservableCollection<AzureDataItem> DefaultViewModel = new ObservableCollection<AzureDataItem>();
+
+        public MainPage()
         {
-            get { return this.navigationHelper; }
+            this.InitializeComponent();
+            HamburgerListItemCommand = new RelayCommand(this.HamburgerListButtonClick);
         }
 
-        public ObservableDictionary DefaultViewModel
-        {
-            get { return this.defaultViewModel; }
-        }
 
         public MainPage(Frame frame)
         {
             this.InitializeComponent();
             MainSplitView.Content = frame;
-            (MainSplitView.Content as Frame).Navigate(typeof(HomePage));
+            (MainSplitView.Content as Frame).Navigate(typeof(MicPage));
             getData();
+            HamburgerListItemCommand = new RelayCommand(this.HamburgerListButtonClick);
+            HamburgerList.ItemsSource = DefaultViewModel;
+            
         }
 
         private async void getData()
         {
             var AzureDataItems = await AzureDataSource.GetDataItemsAsync();
-            this.DefaultViewModel["Items"] = AzureDataItems;
+            foreach (AzureDataItem adi in AzureDataItems)
+            {
+                DefaultViewModel.Add(adi);
+            }
         }
 
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
         {
             MainSplitView.IsPaneOpen = !MainSplitView.IsPaneOpen;
+            
         }
+
+        private void HamburgerListButtonClick()
+        {
+            var item = (HamburgerButton as FrameworkElement).DataContext;
+            int index = HamburgerList.Items.IndexOf(item);
+            HamburgerList.SelectedIndex = index;
+
+
+        }
+
+        private void HamburgerList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var index = HamburgerList.SelectedIndex;
+            
+        }
+
+        public ICommand HamburgerListItemCommand
+        {
+            get;
+            private set;
+        }
+
         /*
         private void Item1Click(object sender, RoutedEventArgs e)
         {

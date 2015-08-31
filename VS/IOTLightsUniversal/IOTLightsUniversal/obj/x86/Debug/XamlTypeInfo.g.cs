@@ -132,29 +132,19 @@ namespace IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[10];
-            _typeNameTable[0] = "IOTLightsUniversal.HomePage";
+            _typeNameTable = new string[5];
+            _typeNameTable[0] = "IOTLightsUniversal.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "IOTLightsUniversal.MainPage";
-            _typeNameTable[4] = "IOTLightsUniversal.Common.NavigationHelper";
-            _typeNameTable[5] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[6] = "IOTLightsUniversal.Common.ObservableDictionary";
-            _typeNameTable[7] = "Object";
-            _typeNameTable[8] = "String";
-            _typeNameTable[9] = "IOTLightsUniversal.MicPage";
+            _typeNameTable[3] = "System.Windows.Input.ICommand";
+            _typeNameTable[4] = "IOTLightsUniversal.MicPage";
 
-            _typeTable = new global::System.Type[10];
-            _typeTable[0] = typeof(global::IOTLightsUniversal.HomePage);
+            _typeTable = new global::System.Type[5];
+            _typeTable[0] = typeof(global::IOTLightsUniversal.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::IOTLightsUniversal.MainPage);
-            _typeTable[4] = typeof(global::IOTLightsUniversal.Common.NavigationHelper);
-            _typeTable[5] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[6] = typeof(global::IOTLightsUniversal.Common.ObservableDictionary);
-            _typeTable[7] = typeof(global::System.Object);
-            _typeTable[8] = typeof(global::System.String);
-            _typeTable[9] = typeof(global::IOTLightsUniversal.MicPage);
+            _typeTable[3] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[4] = typeof(global::IOTLightsUniversal.MicPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -189,16 +179,8 @@ namespace IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_HomePage() { return new global::IOTLightsUniversal.HomePage(); }
-        private object Activate_6_ObservableDictionary() { return new global::IOTLightsUniversal.Common.ObservableDictionary(); }
-        private object Activate_9_MicPage() { return new global::IOTLightsUniversal.MicPage(); }
-        private void MapAdd_6_ObservableDictionary(object instance, object key, object item)
-        {
-            var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
-            var newKey = (global::System.String)key;
-            var newItem = (global::System.Object)item;
-            collection.Add(newKey, newItem);
-        }
+        private object Activate_0_MainPage() { return new global::IOTLightsUniversal.MainPage(); }
+        private object Activate_4_MicPage() { return new global::IOTLightsUniversal.MicPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -210,9 +192,10 @@ namespace IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  IOTLightsUniversal.HomePage
+            case 0:   //  IOTLightsUniversal.MainPage
                 userType = new global::IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_HomePage;
+                userType.Activator = Activate_0_MainPage;
+                userType.AddMemberName("HamburgerListItemCommand");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -225,44 +208,15 @@ namespace IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo
                 xamlType = new global::IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  IOTLightsUniversal.MainPage
-                userType = new global::IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.AddMemberName("NavigationHelper");
-                userType.AddMemberName("DefaultViewModel");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 4:   //  IOTLightsUniversal.Common.NavigationHelper
-                userType = new global::IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+            case 3:   //  System.Windows.Input.ICommand
+                userType = new global::IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
-                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  Windows.UI.Xaml.DependencyObject
-                xamlType = new global::IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 6:   //  IOTLightsUniversal.Common.ObservableDictionary
-                userType = new global::IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.DictionaryAdd = MapAdd_6_ObservableDictionary;
-                userType.SetIsReturnTypeStub();
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 7:   //  Object
-                xamlType = new global::IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 8:   //  String
-                xamlType = new global::IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 9:   //  IOTLightsUniversal.MicPage
+            case 4:   //  IOTLightsUniversal.MicPage
                 userType = new global::IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_MicPage;
+                userType.Activator = Activate_4_MicPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -271,15 +225,10 @@ namespace IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo
         }
 
 
-        private object get_0_MainPage_NavigationHelper(object instance)
+        private object get_0_MainPage_HamburgerListItemCommand(object instance)
         {
             var that = (global::IOTLightsUniversal.MainPage)instance;
-            return that.NavigationHelper;
-        }
-        private object get_1_MainPage_DefaultViewModel(object instance)
-        {
-            var that = (global::IOTLightsUniversal.MainPage)instance;
-            return that.DefaultViewModel;
+            return that.HamburgerListItemCommand;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -289,16 +238,10 @@ namespace IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo
 
             switch (longMemberName)
             {
-            case "IOTLightsUniversal.MainPage.NavigationHelper":
+            case "IOTLightsUniversal.MainPage.HamburgerListItemCommand":
                 userType = (global::IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("IOTLightsUniversal.MainPage");
-                xamlMember = new global::IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo.XamlMember(this, "NavigationHelper", "IOTLightsUniversal.Common.NavigationHelper");
-                xamlMember.Getter = get_0_MainPage_NavigationHelper;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "IOTLightsUniversal.MainPage.DefaultViewModel":
-                userType = (global::IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("IOTLightsUniversal.MainPage");
-                xamlMember = new global::IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "IOTLightsUniversal.Common.ObservableDictionary");
-                xamlMember.Getter = get_1_MainPage_DefaultViewModel;
+                xamlMember = new global::IOTLightsUniversal.IOTLightsUniversal_XamlTypeInfo.XamlMember(this, "HamburgerListItemCommand", "System.Windows.Input.ICommand");
+                xamlMember.Getter = get_0_MainPage_HamburgerListItemCommand;
                 xamlMember.SetIsReadOnly();
                 break;
             }

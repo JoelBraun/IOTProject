@@ -24,7 +24,7 @@ namespace IOTLightsUniversal
     {
         public MicPage()
         {
-            this.InitializeComponent();
+            
         }
     }
 }

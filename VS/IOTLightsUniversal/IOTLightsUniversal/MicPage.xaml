@@ -9,5 +9,9 @@
 
     <Grid Background="White">
         <TextBlock Text="Test Text Font Item" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black" />
+
+        <Grid.DataContext>
+            <local:MicPage></local:MicPage>
+        </Grid.DataContext>
     </Grid>
 </Page>
