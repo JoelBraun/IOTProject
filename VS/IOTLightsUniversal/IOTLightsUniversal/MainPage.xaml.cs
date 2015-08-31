@@ -66,11 +66,11 @@ namespace IOTLightsUniversal
 
         private void HamburgerListButtonClick()
         {
-            var item = (HamburgerButton as FrameworkElement).DataContext;
+            var item = (HamburgerButton as FrameworkElement).
+            var item2 = (item as FrameworkElement).Parent;
+            var item3 = (item as FrameworkElement).;
             int index = HamburgerList.Items.IndexOf(item);
             HamburgerList.SelectedIndex = index;
-
-
         }
 
         private void HamburgerList_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -85,20 +85,5 @@ namespace IOTLightsUniversal
             private set;
         }
 
-        /*
-        private void Item1Click(object sender, RoutedEventArgs e)
-        {
-            (MainSplitView.Content as Frame).Navigate(typeof(HomePage));
-            HamburgerList.SelectedItem = Home;
-            MainSplitView.IsPaneOpen = !MainSplitView.IsPaneOpen;
-        }
-
-        private void Item2Click(object sender, RoutedEventArgs e)
-        {
-            (MainSplitView.Content as Frame).Navigate(typeof(MicPage));
-            MainSplitView.IsPaneOpen = !MainSplitView.IsPaneOpen;
-            HamburgerList.SelectedItem = Microphone;
-        }
-        */
     }
 }

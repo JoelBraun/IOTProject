@@ -25,8 +25,6 @@ namespace IOTLightsUniversal
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
         private global::Windows.UI.Xaml.Controls.ListView HamburgerList; 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
-        private global::Windows.UI.Xaml.Controls.TextBlock TBl; 
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
         private bool _contentLoaded;
 
         /// <summary>
