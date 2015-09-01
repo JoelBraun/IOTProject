@@ -13,14 +13,15 @@
       <RootProperty Name="Content" />
       <RootProperty Name="Name" />
       <RootProperty Name="DataContext" />
-      <RootProperty Name="RequestedTheme" />
       <RootProperty Name="Resources" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
-      <RootProperty Name="Name" />
       <RootProperty Name="Orientation" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Name" />
       <RootProperty Name="Padding" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
@@ -33,6 +34,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ToggleSwitch">
       <RootProperty Name="Padding" />
+      <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="IOTLightsUniversal.DevicePage" />
     <RootType FullName="Windows.UI.Xaml.Data.Binding">

@@ -31,7 +31,8 @@ namespace IOTLightsUniversal
             DName.Text = p.DeviceName;
             DLocation.Text = p.Location;
             DeviceState.Header = "Device status";
-
+            DUptime.Text = p.Uptime.ToString();
+            ECost.Text = p.Cost.ToString();
         }
     }
 }
