@@ -17,8 +17,8 @@
         <SplitView.Pane>
             <StackPanel x:ConnectionId='3' Background="Gray" Name="Root">
                 <Button x:ConnectionId='4' x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
-                     Width="50" Height="50" Background="Transparent" Command="{Binding HamburgerListItemCommand}"                              />
-                <ListView x:ConnectionId='5'  Padding="-12,0,0,0"  x:Name="HamburgerList" Foreground="White">
+                     Width="50" Height="50" Background="Transparent"                              />
+                <ListView x:ConnectionId='5'  Padding="-12,0,0,0"  x:Name="HamburgerList" Foreground="White" IsItemClickEnabled="True"                                     >
                     <ListView.ItemTemplate>
                         <DataTemplate x:Name="HamburgerItemTemplate">
                             <StackPanel Orientation="Horizontal" Padding="0">
@@ -31,11 +31,9 @@
             </StackPanel>
         </SplitView.Pane>
         <SplitView.Content>
-            <Grid>
-                <TextBlock Text="SplitView Content" FontSize="54" Foreground="Black"
-                           HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <TextBlock Text="&#xE895;" FontFamily="Segoe MDL2 Assets" Foreground="Black" FontSize="54"/>
-            </Grid>
+            <StackPanel Orientation="Vertical">
+
+            </StackPanel>
         </SplitView.Content>
     </SplitView>
 </Page>

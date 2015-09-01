@@ -30,6 +30,7 @@ namespace IOTLightsUniversal
     {
         private NavigationHelper navigationHelper;
         public ObservableCollection<AzureDataItem> DefaultViewModel = new ObservableCollection<AzureDataItem>();
+        public Frame msvContent;
 
         public MainPage()
         {
@@ -42,6 +43,7 @@ namespace IOTLightsUniversal
         {
             this.InitializeComponent();
             MainSplitView.Content = frame;
+            msvContent = frame;
             (MainSplitView.Content as Frame).Navigate(typeof(MicPage));
             getData();
             HamburgerListItemCommand = new Command<object>(HamburgerListButtonClick);
@@ -69,6 +71,7 @@ namespace IOTLightsUniversal
             AzureDataItem item = parameter as AzureDataItem;
             int index = DefaultViewModel.IndexOf(item);
             HamburgerList.SelectedIndex = index;
+            MainSplitView.Content = new DevicePage(parameter);
         }
 
         public ICommand HamburgerListItemCommand
@@ -77,5 +80,9 @@ namespace IOTLightsUniversal
             private set;
         }
 
+        public void HamburgerList_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            MainSplitView.Content = new DevicePage(e.ClickedItem);
+        }
     }
 }

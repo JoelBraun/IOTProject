@@ -439,3 +439,8 @@ C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUnivers
 C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\MicPage.g.cs
 C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\MicPage.xaml
 C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\MicPage.xbf
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\DevicePage.xbf
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\DevicePage.g.i.cs
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\DevicePage.g.cs
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\DevicePage.xaml
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\DevicePage.xbf

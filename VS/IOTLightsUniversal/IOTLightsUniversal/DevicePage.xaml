@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="IOTLightsUniversal.MicPage"
+    x:Class="IOTLightsUniversal.DevicePage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:IOTLightsUniversal"
@@ -7,8 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="White">
-        <TextBlock Text="Test Text Font Item" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black" />
-    </Grid>
+    <StackPanel Background="White">
+        <TextBlock x:Name="DName" FontSize="54" Text="" Foreground="Black" Padding="20,0,0,0"/>
+        <TextBlock x:Name="DLocation" FontSize="32" Text="" Padding="20,0,0,0"/>
+        <ToggleSwitch x:Name="DeviceState" Padding="20,0,0,0"/>
+        
+    </StackPanel>
 </Page>
-
