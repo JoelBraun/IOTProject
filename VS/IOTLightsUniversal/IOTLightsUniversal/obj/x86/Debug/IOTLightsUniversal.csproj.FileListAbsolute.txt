@@ -461,3 +461,11 @@ C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUnivers
 C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\Core\System.Net.Http.Primitives.dll
 C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\Core\System.Net.Http.Extensions.dll
 C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\Core\Newtonsoft.Json.dll
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\System.Net.Http.Formatting\layout.resfiles
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\System.Net.Http.Formatting\layout.resfiles.intermediate
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\System.Net.Http.Formatting\Resources.resfiles
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\System.Net.Http.Formatting\Resources.resfiles.intermediate
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\System.Net.Http.Formatting\pri.resfiles
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\System.Net.Http.Formatting\pri.resfiles.intermediate
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\System.Net.Http.Formatting\priconfig.xml
+C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\System.Net.Http.Formatting\priconfig.xml.intermediate

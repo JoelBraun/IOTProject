@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-06T18:41:03.320</Modified>
+      <Modified>2015-09-06T19:06:52.228</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -64,15 +64,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\entrypoint\IOTLightsUniversal.exe">
       <PackagePath>entrypoint\IOTLightsUniversal.exe</PackagePath>
-      <Modified>2015-09-06T18:41:01.604</Modified>
+      <Modified>2015-09-06T19:06:47.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\IOTLightsUniversal.exe">
       <PackagePath>IOTLightsUniversal.exe</PackagePath>
-      <Modified>2015-09-06T18:41:03.320</Modified>
+      <Modified>2015-09-06T19:06:52.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\IOTLightsUniversal.xr.xml">
       <PackagePath>IOTLightsUniversal.xr.xml</PackagePath>
-      <Modified>2015-09-06T18:33:16.907</Modified>
+      <Modified>2015-09-06T19:00:03.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -100,7 +100,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2015-08-27T04:57:21.476</Modified>
+      <Modified>2015-09-06T18:59:29.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -108,7 +108,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-09-06T18:33:21.470</Modified>
+      <Modified>2015-09-06T19:06:50.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
@@ -252,15 +252,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Http.Extensions.dll">
       <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
-      <Modified>2015-08-27T04:57:21.993</Modified>
+      <Modified>2015-09-06T18:59:29.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Http.Formatting.dll">
       <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
-      <Modified>2015-08-27T04:57:20.974</Modified>
+      <Modified>2015-09-06T18:59:29.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Http.Primitives.dll">
       <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
-      <Modified>2015-08-27T04:57:21.942</Modified>
+      <Modified>2015-09-06T18:59:29.477</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Http.Rtc.dll">
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>

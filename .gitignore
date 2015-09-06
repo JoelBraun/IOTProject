@@ -41,3 +41,19 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#Ignore thumbnails created by Windows
+Thumbs.db
+ 
+#Ignore files created by Visual Studio
+*.user
+*.suo
+*.sln.docstates
+[Oo]bj/
+[Bb]in/
+[Bb]ld/
+[Aa]pp[Pp]ackages/
+ 
+#Ignore files created by ReSharper
+_ReSharper*/
+
