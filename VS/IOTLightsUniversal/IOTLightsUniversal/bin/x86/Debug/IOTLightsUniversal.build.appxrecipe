@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>JOELBRAUN-PC</Machine>
+    <Machine>JOELBRAUN-SUR</Machine>
     <WindowsUser>Joel</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -71,6 +71,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -182,6 +185,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Http.Formatting.dll">
+      <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Http.Rtc.dll">
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>

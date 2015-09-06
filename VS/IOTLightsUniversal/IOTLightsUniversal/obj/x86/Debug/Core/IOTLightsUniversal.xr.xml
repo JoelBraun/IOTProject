@@ -35,6 +35,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ToggleSwitch">
       <RootProperty Name="Padding" />
       <RootProperty Name="Foreground" />
+      <RootEvent Name="Toggled" />
     </RootType>
     <RootType FullName="IOTLightsUniversal.DevicePage" />
     <RootType FullName="Windows.UI.Xaml.Data.Binding">

@@ -35,7 +35,7 @@ namespace IOTLightsUniversal
         public MainPage()
         {
             this.InitializeComponent();
-            HamburgerListItemCommand = new Command<object>(HamburgerListButtonClick); //new RelayCommand(this.HamburgerListButtonClick);
+            HamburgerListItemCommand = new Command<object>(HamburgerListButtonClick); 
         }
 
 
@@ -43,7 +43,6 @@ namespace IOTLightsUniversal
         {
             this.InitializeComponent();
             MainSplitView.Content = frame;
-            msvContent = frame;
             (MainSplitView.Content as Frame).Navigate(typeof(MicPage));
             getData();
             HamburgerListItemCommand = new Command<object>(HamburgerListButtonClick);

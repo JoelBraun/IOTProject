@@ -10,7 +10,7 @@
     <StackPanel Background="White">
         <TextBlock x:Name="DName" FontSize="54" Text="" Foreground="Black" Padding="20,0,0,0"/>
         <TextBlock x:Name="DLocation" FontSize="32" Text="" Foreground="Black" Padding="20,0,0,0"/>
-        <ToggleSwitch x:Name="DeviceState" Padding="60,0,0,0" Foreground="Black"/>
+        <ToggleSwitch x:Name="DeviceState" Padding="60,0,0,0" Foreground="Black" Toggled="DeviceState_Toggled"/>
         <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock x:Name="DUptime" FontSize="28" Text="" Foreground="Black"/>
             <TextBlock x:Name="ECost" FontSize="28" Text="" Foreground="Black"/> 

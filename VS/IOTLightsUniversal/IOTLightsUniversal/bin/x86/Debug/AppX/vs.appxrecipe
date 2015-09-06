@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>JOELBRAUN-PC</Machine>
+    <Machine>JOELBRAUN-SUR</Machine>
     <WindowsUser>Joel</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>438ca940-5a07-47ab-b7c8-92eaffb873dc</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>588E966C385E2C61CB2B02B478E9E169DD15DE95C98B7118A4D65620BD83A016</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>31DAEE16E17DE55C7EEDCA85AF1E35824717DFD2AB26681EF5997BFAD225E288</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>438ca940-5a07-47ab-b7c8-92eaffb873dc_1.0.0.0_x86__mcj6cqj3p8fwe</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>438ca940-5a07-47ab-b7c8-92eaffb873dc_mcj6cqj3p8fwe!App</RegisteredUserModeAppID>
     <RegisteredPackageID>438ca940-5a07-47ab-b7c8-92eaffb873dc</RegisteredPackageID>
@@ -22,489 +22,505 @@
     <AppXManifest Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-01T01:09:35.625</Modified>
+      <Modified>2015-09-06T18:41:03.320</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
-      <Modified>2015-08-30T05:07:19.554</Modified>
+      <Modified>2015-09-01T22:57:32.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-08-30T05:07:19.555</Modified>
+      <Modified>2015-09-01T22:57:32.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2015-08-30T05:07:19.556</Modified>
+      <Modified>2015-09-01T22:57:32.430</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2015-08-30T05:07:19.557</Modified>
+      <Modified>2015-09-01T22:57:32.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2015-08-30T05:07:19.558</Modified>
+      <Modified>2015-09-01T22:57:32.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2015-08-30T05:07:19.558</Modified>
+      <Modified>2015-09-01T22:57:32.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <Modified>2015-08-30T05:07:19.559</Modified>
+      <Modified>2015-09-01T22:57:32.444</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2015-08-30T05:07:19.560</Modified>
+      <Modified>2015-09-01T22:57:32.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\ClrCompression.dll">
       <PackagePath>ClrCompression.dll</PackagePath>
-      <Modified>2015-08-15T16:14:57.303</Modified>
+      <Modified>2015-09-01T22:57:32.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\entrypoint\IOTLightsUniversal.exe">
       <PackagePath>entrypoint\IOTLightsUniversal.exe</PackagePath>
-      <Modified>2015-09-01T01:09:34.962</Modified>
+      <Modified>2015-09-06T18:41:01.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\IOTLightsUniversal.exe">
       <PackagePath>IOTLightsUniversal.exe</PackagePath>
-      <Modified>2015-09-01T01:09:35.624</Modified>
+      <Modified>2015-09-06T18:41:03.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\IOTLightsUniversal.xr.xml">
       <PackagePath>IOTLightsUniversal.xr.xml</PackagePath>
-      <Modified>2015-09-01T01:09:34.793</Modified>
+      <Modified>2015-09-06T18:33:16.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
-      <Modified>2015-08-15T16:14:36.053</Modified>
+      <Modified>2015-09-01T22:57:32.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
       <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
-      <Modified>2015-08-15T16:14:36.366</Modified>
+      <Modified>2015-09-01T22:57:32.583</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Microsoft.ApplicationInsights.PersistenceChannel.dll">
       <PackagePath>Microsoft.ApplicationInsights.PersistenceChannel.dll</PackagePath>
-      <Modified>2015-08-15T16:14:36.225</Modified>
+      <Modified>2015-09-01T22:57:32.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
-      <Modified>2015-08-15T16:14:41.428</Modified>
+      <Modified>2015-09-01T22:57:32.737</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
-      <Modified>2015-08-15T16:14:41.209</Modified>
+      <Modified>2015-09-01T22:57:32.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.788</Modified>
+      <Modified>2015-09-01T22:57:32.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-08-27T04:57:21.476</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2015-08-30T05:07:19.671</Modified>
+      <Modified>2015-09-01T22:57:32.834</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-09-01T01:09:35.319</Modified>
+      <Modified>2015-09-06T18:33:21.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
-      <Modified>2015-08-15T16:14:41.178</Modified>
+      <Modified>2015-09-01T22:57:32.868</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
-      <Modified>2015-08-15T16:14:42.131</Modified>
+      <Modified>2015-09-01T22:57:32.906</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
-      <Modified>2015-08-15T16:14:42.116</Modified>
+      <Modified>2015-09-01T22:57:33.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
-      <Modified>2015-08-15T16:14:41.428</Modified>
+      <Modified>2015-09-01T22:57:32.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Collections.NonGeneric.dll">
       <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
-      <Modified>2015-08-15T16:14:48.959</Modified>
+      <Modified>2015-09-01T22:57:32.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Collections.Specialized.dll">
       <PackagePath>System.Collections.Specialized.dll</PackagePath>
-      <Modified>2015-08-15T16:14:43.709</Modified>
+      <Modified>2015-09-01T22:57:33.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.ComponentModel.Annotations.dll">
       <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
-      <Modified>2015-08-15T16:14:41.334</Modified>
+      <Modified>2015-09-01T22:57:33.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.ComponentModel.DataAnnotations.dll">
       <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.881</Modified>
+      <Modified>2015-09-01T22:57:33.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.ComponentModel.dll">
       <PackagePath>System.ComponentModel.dll</PackagePath>
-      <Modified>2015-08-15T16:14:41.600</Modified>
+      <Modified>2015-09-01T22:57:33.192</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.ComponentModel.EventBasedAsync.dll">
       <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.459</Modified>
+      <Modified>2015-09-01T22:57:33.164</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Core.dll">
       <PackagePath>System.Core.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.944</Modified>
+      <Modified>2015-09-01T22:57:33.216</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Data.Common.dll">
       <PackagePath>System.Data.Common.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.616</Modified>
+      <Modified>2015-09-01T22:57:33.248</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Diagnostics.Contracts.dll">
       <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.491</Modified>
+      <Modified>2015-09-01T22:57:33.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Diagnostics.Debug.dll">
       <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
-      <Modified>2015-08-15T16:14:42.163</Modified>
+      <Modified>2015-09-01T22:57:33.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Diagnostics.StackTrace.dll">
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.663</Modified>
+      <Modified>2015-09-01T22:57:33.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Diagnostics.Tools.dll">
       <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
-      <Modified>2015-08-15T16:14:42.131</Modified>
+      <Modified>2015-09-01T22:57:33.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Diagnostics.Tracing.dll">
       <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
-      <Modified>2015-08-15T16:14:42.116</Modified>
+      <Modified>2015-09-01T22:57:33.421</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.dll">
       <PackagePath>System.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.975</Modified>
+      <Modified>2015-09-01T22:57:36.429</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Dynamic.Runtime.dll">
       <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
-      <Modified>2015-08-15T16:14:42.147</Modified>
+      <Modified>2015-09-01T22:57:33.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Globalization.Calendars.dll">
       <PackagePath>System.Globalization.Calendars.dll</PackagePath>
-      <Modified>2015-08-15T16:14:43.553</Modified>
+      <Modified>2015-09-01T22:57:33.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Globalization.dll">
       <PackagePath>System.Globalization.dll</PackagePath>
-      <Modified>2015-08-15T16:14:43.350</Modified>
+      <Modified>2015-09-01T22:57:33.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Globalization.Extensions.dll">
       <PackagePath>System.Globalization.Extensions.dll</PackagePath>
-      <Modified>2015-08-15T16:14:43.725</Modified>
+      <Modified>2015-09-01T22:57:33.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.IO.Compression.dll">
       <PackagePath>System.IO.Compression.dll</PackagePath>
-      <Modified>2015-08-15T16:14:44.194</Modified>
+      <Modified>2015-09-01T22:57:33.609</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.IO.Compression.ZipFile.dll">
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
-      <Modified>2015-08-15T16:14:43.944</Modified>
+      <Modified>2015-09-01T22:57:33.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.IO.dll">
       <PackagePath>System.IO.dll</PackagePath>
-      <Modified>2015-08-15T16:14:43.725</Modified>
+      <Modified>2015-09-01T22:57:33.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.IO.FileSystem.dll">
       <PackagePath>System.IO.FileSystem.dll</PackagePath>
-      <Modified>2015-08-15T16:14:44.319</Modified>
+      <Modified>2015-09-01T22:57:33.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.IO.FileSystem.Primitives.dll">
       <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
-      <Modified>2015-08-15T16:14:44.069</Modified>
+      <Modified>2015-09-01T22:57:33.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.IO.IsolatedStorage.dll">
       <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.819</Modified>
+      <Modified>2015-09-01T22:57:33.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.IO.UnmanagedMemoryStream.dll">
       <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
-      <Modified>2015-08-15T16:14:44.147</Modified>
+      <Modified>2015-09-01T22:57:33.761</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
-      <Modified>2015-08-15T16:14:44.475</Modified>
+      <Modified>2015-09-01T22:57:33.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Linq.Expressions.dll">
       <PackagePath>System.Linq.Expressions.dll</PackagePath>
-      <Modified>2015-08-15T16:14:44.475</Modified>
+      <Modified>2015-09-01T22:57:33.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Linq.Parallel.dll">
       <PackagePath>System.Linq.Parallel.dll</PackagePath>
-      <Modified>2015-08-15T16:14:44.334</Modified>
+      <Modified>2015-09-01T22:57:33.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Linq.Queryable.dll">
       <PackagePath>System.Linq.Queryable.dll</PackagePath>
-      <Modified>2015-08-15T16:14:44.475</Modified>
+      <Modified>2015-09-01T22:57:33.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.dll">
       <PackagePath>System.Net.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.053</Modified>
+      <Modified>2015-09-01T22:57:34.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
-      <Modified>2015-08-15T16:14:44.506</Modified>
+      <Modified>2015-09-01T22:57:34.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+      <Modified>2015-08-27T04:57:21.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Http.Formatting.dll">
+      <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
+      <Modified>2015-08-27T04:57:20.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+      <Modified>2015-08-27T04:57:21.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Http.Rtc.dll">
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.663</Modified>
+      <Modified>2015-09-01T22:57:33.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.NetworkInformation.dll">
       <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
-      <Modified>2015-08-15T16:14:44.303</Modified>
+      <Modified>2015-09-01T22:57:34.065</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Primitives.dll">
       <PackagePath>System.Net.Primitives.dll</PackagePath>
-      <Modified>2015-08-15T16:14:44.475</Modified>
+      <Modified>2015-09-01T22:57:34.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Requests.dll">
       <PackagePath>System.Net.Requests.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.850</Modified>
+      <Modified>2015-09-01T22:57:34.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.Sockets.dll">
       <PackagePath>System.Net.Sockets.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.850</Modified>
+      <Modified>2015-09-01T22:57:34.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Net.WebHeaderCollection.dll">
       <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.694</Modified>
+      <Modified>2015-09-01T22:57:34.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Numerics.dll">
       <PackagePath>System.Numerics.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.084</Modified>
+      <Modified>2015-09-01T22:57:34.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Numerics.Vectors.dll">
       <PackagePath>System.Numerics.Vectors.dll</PackagePath>
-      <Modified>2015-08-15T16:14:44.491</Modified>
+      <Modified>2015-09-01T22:57:34.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll">
       <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.819</Modified>
+      <Modified>2015-09-01T22:57:34.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
-      <Modified>2015-08-15T16:14:44.928</Modified>
+      <Modified>2015-09-01T22:57:34.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.256</Modified>
+      <Modified>2015-09-01T22:57:34.417</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Private.Networking.dll">
       <PackagePath>System.Private.Networking.dll</PackagePath>
-      <Modified>2015-08-15T16:14:48.834</Modified>
+      <Modified>2015-09-01T22:57:34.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Private.ServiceModel.dll">
       <PackagePath>System.Private.ServiceModel.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.381</Modified>
+      <Modified>2015-09-01T22:57:34.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
-      <Modified>2015-08-15T16:14:38.928</Modified>
+      <Modified>2015-09-01T22:57:34.714</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Reflection.Context.dll">
       <PackagePath>System.Reflection.Context.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.819</Modified>
+      <Modified>2015-09-01T22:57:34.745</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Reflection.DispatchProxy.dll">
       <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
-      <Modified>2015-08-15T16:14:45.100</Modified>
+      <Modified>2015-09-01T22:57:34.779</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Reflection.dll">
       <PackagePath>System.Reflection.dll</PackagePath>
-      <Modified>2015-08-15T16:14:45.006</Modified>
+      <Modified>2015-09-01T22:57:35.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Reflection.Emit.dll">
       <PackagePath>System.Reflection.Emit.dll</PackagePath>
-      <Modified>2015-08-15T16:14:58.069</Modified>
+      <Modified>2015-09-01T22:57:34.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Reflection.Emit.ILGeneration.dll">
       <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
-      <Modified>2015-08-15T16:14:56.788</Modified>
+      <Modified>2015-09-01T22:57:34.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Reflection.Emit.Lightweight.dll">
       <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
-      <Modified>2015-08-15T16:14:57.131</Modified>
+      <Modified>2015-09-01T22:57:34.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Reflection.Extensions.dll">
       <PackagePath>System.Reflection.Extensions.dll</PackagePath>
-      <Modified>2015-08-15T16:14:45.131</Modified>
+      <Modified>2015-09-01T22:57:34.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
-      <Modified>2015-08-15T16:14:45.381</Modified>
+      <Modified>2015-09-01T22:57:34.912</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Reflection.Primitives.dll">
       <PackagePath>System.Reflection.Primitives.dll</PackagePath>
-      <Modified>2015-08-15T16:14:45.553</Modified>
+      <Modified>2015-09-01T22:57:34.939</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
-      <Modified>2015-08-15T16:14:45.459</Modified>
+      <Modified>2015-09-01T22:57:34.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Resources.ResourceManager.dll">
       <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
-      <Modified>2015-08-15T16:14:45.350</Modified>
+      <Modified>2015-09-01T22:57:35.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2015-08-15T16:14:45.584</Modified>
+      <Modified>2015-09-01T22:57:35.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Runtime.Extensions.dll">
       <PackagePath>System.Runtime.Extensions.dll</PackagePath>
-      <Modified>2015-08-15T16:14:45.569</Modified>
+      <Modified>2015-09-01T22:57:35.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Runtime.Handles.dll">
       <PackagePath>System.Runtime.Handles.dll</PackagePath>
-      <Modified>2015-08-15T16:14:45.647</Modified>
+      <Modified>2015-09-01T22:57:35.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Runtime.InteropServices.dll">
       <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
-      <Modified>2015-08-15T16:14:46.194</Modified>
+      <Modified>2015-09-01T22:57:35.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.913</Modified>
+      <Modified>2015-09-01T22:57:35.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Runtime.Numerics.dll">
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
-      <Modified>2015-08-15T16:14:46.334</Modified>
+      <Modified>2015-09-01T22:57:35.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Runtime.Serialization.dll">
       <PackagePath>System.Runtime.Serialization.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.116</Modified>
+      <Modified>2015-09-01T22:57:35.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Runtime.Serialization.Json.dll">
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
-      <Modified>2015-08-15T16:14:39.975</Modified>
+      <Modified>2015-09-01T22:57:35.244</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Runtime.Serialization.Primitives.dll">
       <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.084</Modified>
+      <Modified>2015-09-01T22:57:35.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Runtime.Serialization.Xml.dll">
       <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.163</Modified>
+      <Modified>2015-09-01T22:57:35.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.dll">
       <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.288</Modified>
+      <Modified>2015-09-01T22:57:35.416</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.UI.Xaml.dll">
       <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.600</Modified>
+      <Modified>2015-09-01T22:57:35.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Security.Claims.dll">
       <PackagePath>System.Security.Claims.dll</PackagePath>
-      <Modified>2015-08-15T16:14:45.569</Modified>
+      <Modified>2015-09-01T22:57:35.496</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Security.Principal.dll">
       <PackagePath>System.Security.Principal.dll</PackagePath>
-      <Modified>2015-08-15T16:14:45.803</Modified>
+      <Modified>2015-09-01T22:57:35.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.ServiceModel.dll">
       <PackagePath>System.ServiceModel.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.147</Modified>
+      <Modified>2015-09-01T22:57:35.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.ServiceModel.Duplex.dll">
       <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.678</Modified>
+      <Modified>2015-09-01T22:57:35.583</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.ServiceModel.Http.dll">
       <PackagePath>System.ServiceModel.Http.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.600</Modified>
+      <Modified>2015-09-01T22:57:35.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.ServiceModel.NetTcp.dll">
       <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.897</Modified>
+      <Modified>2015-09-01T22:57:35.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.ServiceModel.Primitives.dll">
       <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.913</Modified>
+      <Modified>2015-09-01T22:57:35.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.ServiceModel.Security.dll">
       <PackagePath>System.ServiceModel.Security.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.850</Modified>
+      <Modified>2015-09-01T22:57:35.731</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.ServiceModel.Web.dll">
       <PackagePath>System.ServiceModel.Web.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.163</Modified>
+      <Modified>2015-09-01T22:57:35.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Text.Encoding.CodePages.dll">
       <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
-      <Modified>2015-08-15T16:14:41.303</Modified>
+      <Modified>2015-09-01T22:57:35.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Text.Encoding.dll">
       <PackagePath>System.Text.Encoding.dll</PackagePath>
-      <Modified>2015-08-15T16:14:45.850</Modified>
+      <Modified>2015-09-01T22:57:35.879</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Text.Encoding.Extensions.dll">
       <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
-      <Modified>2015-08-15T16:14:45.881</Modified>
+      <Modified>2015-09-01T22:57:35.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
-      <Modified>2015-08-15T16:14:45.897</Modified>
+      <Modified>2015-09-01T22:57:35.917</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Threading.dll">
       <PackagePath>System.Threading.dll</PackagePath>
-      <Modified>2015-08-15T16:14:47.428</Modified>
+      <Modified>2015-09-01T22:57:36.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Threading.Overlapped.dll">
       <PackagePath>System.Threading.Overlapped.dll</PackagePath>
-      <Modified>2015-08-15T16:14:38.709</Modified>
+      <Modified>2015-09-01T22:57:35.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Threading.Tasks.Dataflow.dll">
       <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
-      <Modified>2015-08-15T16:14:47.913</Modified>
+      <Modified>2015-09-01T22:57:35.991</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Threading.Tasks.dll">
       <PackagePath>System.Threading.Tasks.dll</PackagePath>
-      <Modified>2015-08-15T16:14:47.241</Modified>
+      <Modified>2015-09-01T22:57:36.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Threading.Tasks.Parallel.dll">
       <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
-      <Modified>2015-08-15T16:14:47.569</Modified>
+      <Modified>2015-09-01T22:57:36.023</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Threading.Timer.dll">
       <PackagePath>System.Threading.Timer.dll</PackagePath>
-      <Modified>2015-08-15T16:14:47.491</Modified>
+      <Modified>2015-09-01T22:57:36.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Windows.dll">
       <PackagePath>System.Windows.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.225</Modified>
+      <Modified>2015-09-01T22:57:36.145</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Xml.dll">
       <PackagePath>System.Xml.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.225</Modified>
+      <Modified>2015-09-01T22:57:36.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Xml.Linq.dll">
       <PackagePath>System.Xml.Linq.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.241</Modified>
+      <Modified>2015-09-01T22:57:36.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Xml.ReaderWriter.dll">
       <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
-      <Modified>2015-08-15T16:14:48.194</Modified>
+      <Modified>2015-09-01T22:57:36.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Xml.Serialization.dll">
       <PackagePath>System.Xml.Serialization.dll</PackagePath>
-      <Modified>2015-08-15T16:14:40.272</Modified>
+      <Modified>2015-09-01T22:57:36.239</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Xml.XDocument.dll">
       <PackagePath>System.Xml.XDocument.dll</PackagePath>
-      <Modified>2015-08-15T16:14:48.194</Modified>
+      <Modified>2015-09-01T22:57:36.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Xml.XmlDocument.dll">
       <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
-      <Modified>2015-08-15T16:14:38.866</Modified>
+      <Modified>2015-09-01T22:57:36.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
-      <Modified>2015-08-15T16:14:41.272</Modified>
+      <Modified>2015-09-01T22:57:36.375</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joel\Documents\GitHub\IOTProject\VS\IOTLightsUniversal\IOTLightsUniversal\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2015-08-14T04:44:36.740</Modified>
+      <Modified>2015-09-01T22:57:36.569</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
